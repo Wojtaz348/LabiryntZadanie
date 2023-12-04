@@ -20,7 +20,7 @@ class Program
                 iloscKolumn = Convert.ToInt32(Console.ReadLine());
 
 
-                ZrobLabirynt();
+                ZrobLabirynt1();
 
                 while (true)
                 {
@@ -51,7 +51,7 @@ class Program
         }
     }
 
-    static void ZrobLabirynt()
+    static void ZrobLabirynt1()
     {
         labirynt1 = new char[iloscKolumn, iloscWierszy];
 
